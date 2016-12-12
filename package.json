@@ -1,0 +1,22 @@
+{
+  "name": "facebook-paylasim",
+  "version": "0.0.1",
+  "description": "facebook resim paylasim uygulamasi arkayüz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basakkonik/YY-Facebook-Paylasim.git"
+  },
+  "author": "cemalege, erkan, furkan, basak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basakkonik/YY-Facebook-Paylasim/issues"
+  },
+  "homepage": "https://github.com/basakkonik/YY-Facebook-Paylasim#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
