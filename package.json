@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/basakkonik/YY-Facebook-Paylasim#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "fb": "^1.1.1",
+    "multer": "^1.2.1"
   }
 }
