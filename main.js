@@ -32,10 +32,23 @@ app.post( '/api/photo', upload.single( 'avatar' ), function ( req, res, next ) {
     if( !_res || _res.error ) {
       res.status( 400 ).send( !_res ? 'error occurred' : _res.error );
       return;
-    } res.status( 200 ).send( _res.post_id );
+    } else {
+      res.status( 200 ).send( _res.post_id );
+      getPhotoID(_res.post_id);
+    }
   } );
 } );
 
 app.listen( 3000, function () {
   console.log( 'Sunucu baslatildi...' );
 } );
+
+function getPhotoID(postID) {
+  fb.api(postID, { fields:['object_id'] }, function(res){
+    if(!res || res.error) {
+      console.log('hata olustu');
+      return;
+    }
+      console.log(res.object_id);
+  } );
+}
