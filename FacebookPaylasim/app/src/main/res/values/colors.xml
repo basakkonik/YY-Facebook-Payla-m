@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1baf91</color>
+    <color name="colorPrimaryDark">#139279</color>
+    <color name="colorAccent">#20a8b8</color>
+
+
+    <color name="background">#1baf91</color>
+    <color name="button">#20a8b8</color>
+    <color name="btn_logut_bg">#b42921</color>
+    <color name="homepage">#e4e6de</color>
+
+    <color name="yellow">#cab44a</color>
+
+    <color name="whitee">#edfffa</color>
+
+
+</resources>

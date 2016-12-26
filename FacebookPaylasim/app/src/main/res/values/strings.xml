@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Sharemod</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <!--Hint Resource -->
+
+    <string name="name">Adı Soyadı</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="email">E-Posta Adresi</string>
+    <string name="password">Şifre</string>
+    <string name="account">Yeni Hesap Oluştur</string>
+    <string name="delete">Hesabı Sil</string>
+    <string name="login">Kayıtlı Kullanıcı mısın? Giriş için Tıkla!</string>
+
+
+
+
+
+
+
+  <string name="about">Projemiz; Android tabanlı,  sosyal medyada fotoğraf  paylaşmaya yarayan bir uygulamadır.
+    Bu uygulama ile ister galeriden mevcut bir resmi seçebilir, ister kamera kullanılarak anlık fotoğraf çekilip paylaşılabilir.
+    Uygulamayı kullanabilmek için öncelikle üyelik gerekmektedir.
+    Aynı anda Facebook, Twitter, Instagram gibi sosyal medya araçlarında resim paylaşımını sağlar.
+    Uygulamanın herhangi bir filtre veya fotoğraf düzenleme gibi seçenekleri yoktur.
+    Kullanıcı resmi bir başlık veya açıklama ile birlikte paylaşabilir.
+    Uygulamanın kullanılabilmesi için kişinin Facebook, Twitter,
+    Instagram hesaplarının en az birinin kullanılabilir olması gerekmektedir.</string>
+
+
+
+
+
+
+
+</resources>

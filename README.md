@@ -1,1 +1,1 @@
-Yazılım Yapımı Projesi
+Yazilim Yapimi Projesi
