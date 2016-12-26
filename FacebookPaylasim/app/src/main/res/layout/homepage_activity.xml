@@ -7,13 +7,29 @@
     android:paddingRight="10dp"
     android:background="@color/homepage">
 
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/settings"
+        android:background="@drawable/ico_settings"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="300dp"
         android:paddingTop="10dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:layout_centerVertical="true">
+        android:id="@+id/relativeLayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
